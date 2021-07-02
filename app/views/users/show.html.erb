@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>マイページ</h1>
+
+<p><%= @user.name %></p>
+<p><%= @user.email %></p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', feeds_path %>
